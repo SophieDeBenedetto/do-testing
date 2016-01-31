@@ -1,0 +1,10 @@
+Cats
+<ul>
+<% @cats.each do |cat| %>
+<li>name: <%= cat.name %></li>
+<li>age: <%= cat.age %></li>
+<li>breed: <%= cat.breed%></li>
+<li>favorite bird: <%= cat.favorite_bird%></li>
+<br>
+<% end %>
+</ul>
